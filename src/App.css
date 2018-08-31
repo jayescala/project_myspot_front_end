@@ -1,0 +1,163 @@
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.album-image {
+  height: 50px;
+  width: 50px;
+}
+
+#search-component {
+  overflow: scroll;
+}
+
+#nav {
+  height: 6vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 2px solid #000000;
+}
+
+.nav-item, :visited {
+  height: 4vh;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin: 0px 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#search-room-container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-room-display {
+  height: 120px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+#nickname-container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nickname-display {
+  height: 120px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+#login-container {
+
+}
+
+#register-container {
+
+}
+
+#home-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-column {
+  height: 75vh;
+  width: 30vw;
+  border: 2px solid #000000;
+  text-align: center;
+}
+
+.suggestion-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #000000;
+}
+
+ul {
+  padding: 0px;
+}
+
+#mario-chat{
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+}
+
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+/* label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+} */
+
+#handle, #message {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+#send {
+    background: #575ed8;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
